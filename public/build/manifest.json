@@ -1,0 +1,138 @@
+{
+  "__commonjsHelpers-Cpj98o6Y.js": {
+    "file": "assets/_commonjsHelpers-Cpj98o6Y.js",
+    "name": "_commonjsHelpers"
+  },
+  "_apexcharts.common-CXSUcqxi.js": {
+    "file": "assets/apexcharts.common-CXSUcqxi.js",
+    "name": "apexcharts.common",
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "node_modules/glightbox/dist/css/glightbox.min.css": {
+    "file": "assets/glightbox-Ce1H3Bte.css",
+    "src": "node_modules/glightbox/dist/css/glightbox.min.css",
+    "isEntry": true
+  },
+  "node_modules/jsvectormap/dist/css/jsvectormap.min.css": {
+    "file": "assets/jsvectormap-Dixxy_Zt.css",
+    "src": "node_modules/jsvectormap/dist/css/jsvectormap.min.css",
+    "isEntry": true
+  },
+  "node_modules/quill/dist/quill.bubble.css": {
+    "file": "assets/quill-B5NLdfAM.css",
+    "src": "node_modules/quill/dist/quill.bubble.css",
+    "isEntry": true
+  },
+  "node_modules/quill/dist/quill.core.css": {
+    "file": "assets/quill-DdsCujUb.css",
+    "src": "node_modules/quill/dist/quill.core.css",
+    "isEntry": true
+  },
+  "node_modules/quill/dist/quill.snow.css": {
+    "file": "assets/quill-DZrYvFpI.css",
+    "src": "node_modules/quill/dist/quill.snow.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BrTUTTyJ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/costum.css": {
+    "file": "assets/app-BrTUTTyJ.css",
+    "src": "resources/css/costum.css",
+    "isEntry": true
+  },
+  "resources/css/icons.css": {
+    "file": "assets/icons-CNcg2RN9.css",
+    "src": "resources/css/icons.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BMKt3umZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/app-calendar.js": {
+    "file": "assets/app-calendar-DnfBgNKl.js",
+    "name": "app-calendar",
+    "src": "resources/js/pages/app-calendar.js",
+    "isEntry": true
+  },
+  "resources/js/pages/charts-apex.js": {
+    "file": "assets/charts-apex-BBLV4gyy.js",
+    "name": "charts-apex",
+    "src": "resources/js/pages/charts-apex.js",
+    "isEntry": true,
+    "imports": [
+      "_apexcharts.common-CXSUcqxi.js",
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/dashboard.js": {
+    "file": "assets/dashboard-DHV3F6Xp.js",
+    "name": "dashboard",
+    "src": "resources/js/pages/dashboard.js",
+    "isEntry": true,
+    "imports": [
+      "_apexcharts.common-CXSUcqxi.js",
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/file-upload.js": {
+    "file": "assets/file-upload-Cd-Mzvx4.js",
+    "name": "file-upload",
+    "src": "resources/js/pages/file-upload.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/form-editor.js": {
+    "file": "assets/form-editor-D8QVLM0e.js",
+    "name": "form-editor",
+    "src": "resources/js/pages/form-editor.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/form-inputmask.js": {
+    "file": "assets/form-inputmask-Bj5OfQE6.js",
+    "name": "form-inputmask",
+    "src": "resources/js/pages/form-inputmask.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/gallery.js": {
+    "file": "assets/gallery-BsihRX9J.js",
+    "name": "gallery",
+    "src": "resources/js/pages/gallery.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/js/pages/maps-vector.js": {
+    "file": "assets/maps-vector-ew6ZQs-w.js",
+    "name": "maps-vector",
+    "src": "resources/js/pages/maps-vector.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-CojYnSwk.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  }
+}
