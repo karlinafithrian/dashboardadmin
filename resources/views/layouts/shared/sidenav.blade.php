@@ -6,7 +6,7 @@
         <!-- Sidenav Logo -->
         <div class="sticky top-0 flex h-topbar items-center justify-between px-6">
             <a href="/">
-                <img src="/images/logo.png" alt="logo" class="flex h-8">
+                <img src="/images/logo-light.png" alt="logo" class="flex h-8">
             </a>
         </div>
 
@@ -25,13 +25,13 @@
 
                 <li class="px-3 py-2 text-sm font-medium text-default-400">Apps</li>
 
-                <li class="menu-item">
+                {{-- <li class="menu-item">
                     <a class="group flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5"
                         href="{{ route('second', ['apps', 'calendar']) }}">
                         <i class="i-ph-calendar-duotone text-2xl"></i>
                         Calendar
                     </a>
-                </li>
+                </li> --}}
 
                 <li class="menu-item">
                     <a class="group flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5"
@@ -41,29 +41,28 @@
                     </a>
                 </li>
 
-                <li class="menu-item">
+                {{-- <li class="menu-item">
                     <a class="group flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5"
                         href="{{ route('second', ['apps', 'plans'])}}">
                         <i class="i-ph-money-wavy-duotone text-2xl"></i>
                         Pricing Plans
                     </a>
-                </li>
+                </li> --}}
 
-                <li class="menu-item">
+                {{-- <li class="menu-item">
                     <a class="group flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5"
                         href="{{ route('second', ['apps', 'contacts'])}}">
                         <i class="i-ph-user-circle-duotone text-2xl"></i>
                         Contacts
                     </a>
-                </li>
+                </li> --}}
 
                 <li class="px-3 py-2 text-sm font-medium text-default-400">Pages</li>
-
                 <li class="menu-item">
-                    <a href="{{ route('any','starter-page')}}"
-                        class="group flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5">
+                    <a href="{{ route('any', ['createproduct'])}}"
+                        class="flex items-center gap-x-3.5 rounded-md px-3 py-1.5 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5">
                         <i class="i-ph-clipboard-text-duotone text-2xl"></i>
-                        <span class="menu-text"> Starter Pages </span>
+                        <span class="menu-text">Create Products</span>
                     </a>
                 </li>
 
@@ -261,13 +260,7 @@
                                     <span class="menu-text">Validation</span>
                                 </a>
                             </li>
-                            <li class="menu-item">
-                                <a href="{{ route('second', ['forms', 'layout'])}}"
-                                    class="flex items-center gap-x-3.5 rounded-md px-3 py-1.5 text-sm font-medium text-default-100 transition-all hover:bg-default-100/5">
-                                    <i class="menu-dot"></i>
-                                    <span class="menu-text">Form Layout</span>
-                                </a>
-                            </li>
+                           
                         </ul>
                     </div>
                 </li>

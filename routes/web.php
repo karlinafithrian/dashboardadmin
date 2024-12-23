@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoutingController;
+use App\Http\Controllers\ProductController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,14 @@ Route::group(['prefix' => '/'], function () {
     Route::get('{first}/{second}', [RoutingController::class, 'secondLevel'])->name('second');
     Route::get('{any}', [RoutingController::class, 'root'])->name('any');
 });
+
+
+
+// Tampilkan form
+Route::get('/product/form', function () {
+    return view('createproduct'); // Sesuaikan dengan nama view yang benar
+})->name('product.form');
+
+// Tangani penyimpanan data
+Route::post('/product/store', [ProductController::class, 'store'])->name('product.store');
+

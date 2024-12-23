@@ -1,8 +1,8 @@
 <meta charset="utf-8">
-<title>{{ $title }} | Dashtrap - Tailwind CSS 3 Admin Layout & UI Kit Template</title>
+<title>{{ $title }} | Nesnustore</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
 <meta content="MyraStudio" name="author">
 
 <!-- App favicon -->
-<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="shortcut icon" href="/images/logo-black.png">

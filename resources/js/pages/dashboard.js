@@ -174,3 +174,12 @@ var options = {
 
 var chart = new ApexCharts(document.querySelector("#line-chart"), options);
 chart.render();
+
+document.querySelectorAll('input[type="number"]').forEach(function(input) {
+    input.addEventListener('input', function() {
+        if (parseInt(input.value) < 0) {
+            input.value = 0; // Set nilai ke 0 jika kurang dari 0
+        }
+    });
+});
+
